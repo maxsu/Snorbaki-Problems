@@ -1,0 +1,18 @@
+
+
+
+Theorem: The dyadic self-density always exists and is equal to 0 or 1.
+
+Proof: 
+
+Equal to 0 or 1: 
+
+Denote 2^-md C(m+n)/C(n) by D(m, n). Note that we can write D(m, n) as Product (k = n to n+m-1) E(k), where E(k) := 2^-d C(k+1)/C(k).
+
+Now lim m -> inf D(m, 1) = product (k = 1 to inf) E(k). Since each E(k) is between 0 and 1 inclusive, by the monotone convergence theorem this converges. 
+
+Now using the fact that lim m -> inf D(m, n) = product (k = n to inf) E(k), we see that lim (n-> inf) lim (m -> inf) D(m, n) is the limit of a the tail of a convergent product. If this limit exists it is equal to 0 or 1.
+
+Always exists:
+
+???
